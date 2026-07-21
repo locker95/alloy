@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.19.0](https://github.com/grafana/alloy/compare/v1.18.0...v1.19.0) (2026-07-21)
+
+
+### Features 🌟
+
+* Add start_timestamp_zero_ingestion to Prometheus metric components ([#6610](https://github.com/grafana/alloy/issues/6610)) ([1a9ed95](https://github.com/grafana/alloy/commit/1a9ed956fa34a172b97b0d11c72d2e9232f359f2))
+* **beyla.ebpf:** Run Beyla as a subprocess ([#6695](https://github.com/grafana/alloy/issues/6695)) ([61ec3d2](https://github.com/grafana/alloy/commit/61ec3d29587322974d76a1cacace9e192eed9825))
+* Bump Alloy Version to v1.18.0 in Helm Chart ([#6722](https://github.com/grafana/alloy/issues/6722)) ([6a3d2e3](https://github.com/grafana/alloy/commit/6a3d2e39422c25361f63ab9d4a072502863db466))
+* Check imports of inline Alloy config in OTel mode ([#6677](https://github.com/grafana/alloy/issues/6677)) ([fda0449](https://github.com/grafana/alloy/commit/fda0449505c9d9391f532047d50df23aacaf200a))
+* **database_observability.postgres:** Emit op=query_association_v2 carrying query_fingerprint ([#6297](https://github.com/grafana/alloy/issues/6297)) ([75239d0](https://github.com/grafana/alloy/commit/75239d0108be1a732162c445ba14df5952391cf4))
+* **database_observability.sql_server:** Support csp metadata for SQL Server ([#6689](https://github.com/grafana/alloy/issues/6689)) ([24c7207](https://github.com/grafana/alloy/commit/24c7207eda9e203fc5a7f671efcda25a350945db))
+
+
+### Bug Fixes 🐛
+
+* **loki.process:** Return errors from metric registration instead of panicking ([#6078](https://github.com/grafana/alloy/issues/6078)) ([a388da5](https://github.com/grafana/alloy/commit/a388da5be3097f65e45d91d14070651570fff00e))
+* **loki.source.windowsevent:** Use octal notation for file permissions ([#6077](https://github.com/grafana/alloy/issues/6077)) ([789140d](https://github.com/grafana/alloy/commit/789140dfec9c65be1ba041766644a2773a435f06))
+
 ## [1.18.0](https://github.com/grafana/alloy/compare/v1.17.0...v1.18.0) (2026-07-17)
 
 
